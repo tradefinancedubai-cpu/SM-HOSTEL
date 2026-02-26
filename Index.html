@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>S&M HOSTEL | Bedspace in Bur Dubai</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#f8f9fc;
+    color:#222;
+}
+
+header{
+    background:#000;
+    padding:20px 5%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:fixed;
+    width:100%;
+    z-index:1000;
+}
+
+header img{
+    height:50px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:500;
+}
+
+.hero{
+    height:100vh;
+    background:url('hostel-gallery.png') center/cover no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero-content{
+    background:rgba(0,0,0,0.6);
+    padding:40px;
+    border-radius:10px;
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+.btn{
+    background:#ff4b2b;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:600;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:32px;
+    font-weight:700;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.feature-box{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    text-align:center;
+}
+
+.pricing{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.price-card{
+    background:white;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    text-align:center;
+    width:300px;
+}
+
+.blog{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.blog-card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.footer{
+    background:#000;
+    color:white;
+    text-align:center;
+    padding:40px 10%;
+}
+
+.footer a{
+    color:#ff4b2b;
+    text-decoration:none;
+}
+
+@media(max-width:768px){
+.hero h1{
+    font-size:32px;
+}
+}
+
+</style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="S&M Hostel Logo">
+    <nav>
+        <a href="#features">Amenities</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Enquiry</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <div class="hero-content">
+        <h1>S&M HOSTEL – BUR DUBAI</h1>
+        <p>Premium Bedspaces for Boys & Girls | Indians Preferred</p>
+        <p>Monthly from AED 600 | Daily from AED 50</p>
+        <a href="#contact" class="btn">Enquire Now</a>
+    </div>
+</div>
+
+<section id="features">
+    <h2 class="section-title">Our Amenities</h2>
+    <div class="features">
+        <div class="feature-box">High Speed Internet</div>
+        <div class="feature-box">Big Spacious Balcony</div>
+        <div class="feature-box">Fully Equipped Kitchen</div>
+        <div class="feature-box">Gas Stove</div>
+        <div class="feature-box">Washing Machine</div>
+        <div class="feature-box">Near Sharaf DG Metro</div>
+        <div class="feature-box">Separate for Boys & Girls</div>
+        <div class="feature-box">Daily & Monthly Stay Available</div>
+    </div>
+</section>
+
+<section id="pricing">
+    <h2 class="section-title">Pricing</h2>
+    <div class="pricing">
+        <div class="price-card">
+            <h3>Monthly Stay</h3>
+            <h2>AED 600+</h2>
+            <p>Affordable shared bedspaces</p>
+        </div>
+        <div class="price-card">
+            <h3>Daily Stay</h3>
+            <h2>AED 50+</h2>
+            <p>Short stays available</p>
+        </div>
+    </div>
+</section>
+
+<section id="blog">
+    <h2 class="section-title">Latest Promotions & Blog</h2>
+    <div class="blog">
+        <div class="blog-card">
+            <h3>Special Offer for New Guests</h3>
+            <p>Book monthly stay and get special pricing this month.</p>
+        </div>
+        <div class="blog-card">
+            <h3>Why Stay Near Sharaf DG Metro?</h3>
+            <p>Easy access to transport, supermarkets and workplaces.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Enquiry & Booking</h2>
+    <p style="text-align:center;">Call or WhatsApp:</p>
+    <p style="text-align:center;font-weight:600;">
+        +971545787456 | +971508350945<br>
+        +971564385604 | +971523796647
+    </p>
+    <br>
+    <p style="text-align:center;">Also available on:</p>
+    <p style="text-align:center;">
+        Agoda | MakeMyTrip
+    </p>
+</section>
+
+<div class="footer">
+    <p>© 2026 S&M HOSTEL – Bur Dubai</p>
+    <p>Budebes Building, Rolla Street, Close to Sharaf DG Metro, Bur Dubai</p>
+</div>
+
+</body>
+</html>
